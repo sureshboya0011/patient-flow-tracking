@@ -1,0 +1,18 @@
+{
+  "name": "patient-flow-tracker",
+  "version": "1.0.0",
+  "description": "Track a patient's journey: REGISTERED -> IN_CONSULTATION -> DISCHARGED",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "demo": "node scripts/demo.js",
+    "test": "node --test test/api.test.js"
+  },
+  "keywords": ["healthcare", "patient", "express", "rest"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
